@@ -1,20 +1,22 @@
-print('Jessica Noriega)
-      
-print('Hello') #greeting user 
+# Jessica Noriega
 
-print('Please select a language to be greeted in that language.') #user will select a language to be greeted in that language
-
-print('1 English') #select 1 to display greeting in English
-print('2 Spanish') #select 2 to display greeting in Spanish
-print('3 Portuguese') #select 3 to display greeting in Portuguese
-
-if chosenLanguage == '1': #will print 'Hello' in English
+# write a program that:
+# 1. greets the user in English
 print('Hello!')
-if chosenLanguage == '2': #will print 'Hello' in Spanish
-print('Hola!')
-if chosenLanguage =='3': #will print 'Hello' in Portugese
-print('0i!')
+# 2. asks the user to choose from 1 of 3 spoken languages (pick your favorite languages!) 
+print('Please Enter 1 to be greeted in English.')
+print('Please Enter 2 to be greeted in Spanish.')
+print('Please Enter 3 to be greeted in Portuguese.')
+# 3. displays the greeting in the chosen language
+lan = input()
+if lan == '1':
+    print('Hello!')
+elif lan == '2':
+    print('Hola!')
+elif lan == '3':
+    print('Oi!')
 
-print('Thank you, Goodbye!') 
-sys.exit() #system will exit
-
+# 4. exits
+print('Thank you, Goodbye!')
+      
+# make sure that your code contains comments explaining your logic!
